@@ -15,3 +15,8 @@ function yep(){
 var bar=function(){
     return "hi";
 };
+
+
+//. Variables declared with var are hoisted and initialized with 
+// undefined, while let and const are hoisted but not initialized (they're in the "temporal dead 
+// zone" until their declaration). 

@@ -22,3 +22,7 @@ function example(){
 example(); //in browser:window , in strcut mode:undefined
 //Browser me (non-strict mode) → this window object hoga.
 // Strict mode ("use strict") me → this undefined hoga.
+
+//n a method, this refers to the owner object 
+// • In a regular function, this refers to the global object (window in browsers, global in Node.js) 
+// or undefined in strict mode 
