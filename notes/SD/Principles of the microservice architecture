@@ -1,0 +1,6 @@
+Microservice Architecture is a design paradigm when a lareg complex app is broken down into small component Service that have 
+following char: loosely coupled , highli main and testable, indep developd and maintaind,
+organized around bussiness capa, owned by a small team.
+
+
+Monolithic vs Service oriented Architecture vs Microservices

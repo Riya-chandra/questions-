@@ -1,0 +1,12 @@
+Load Balancers
+Databases
+Caches
+File system Storage- block Storage and object Storage
+
+network:
+
+Message Queue: A system where producers send messages to a queue and consumers read them asynchronously. Examples: Kafka, RabbitMQ, Pulsar, AWS SQS.
+High Throughput: System can process millions of messages per second.
+Low Latency: Time between producing a message and consuming it is very small.
+
+Kafka uses log-structured storage for sequential disk writes → very fast.
