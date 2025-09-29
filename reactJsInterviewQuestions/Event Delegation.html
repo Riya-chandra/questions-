@@ -1,0 +1,37 @@
+//Question: Implement event delegation for multiple buttons inside a parent div.
+
+ <div id="parent">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+</div> 
+
+<Script>
+    document.getElementById("parent").addEventListener("click", function(e){
+        if(e.target.tagname==="BUTTON"){
+            console.log("clicked" ,e.target.innerText);
+        }
+    })
+</Script>
+
+
+
+<!-- <ul id="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+
+
+
+//without event delegation
+<script>
+  const items = document.querySelectorAll("#list li");
+  items.forEach(item => {
+    item.addEventListener("click", () => {
+      console.log(item.textContent + " clicked");
+    });
+  });
+</script>
