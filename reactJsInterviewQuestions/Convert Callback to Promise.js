@@ -66,3 +66,24 @@ run();
 // then handle karta hai resolve result.
 
 // catch handle karta hai reject error.
+
+
+
+// Callback version
+function doSomething(data, callback) {
+  setTimeout(() => {
+    callback(data * 2);
+  }, 1000);
+}
+
+// Promise version
+function doSomethingPromise(data) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(data * 2);
+    }, 1000);
+  });
+}
+
+// Usage
+doSomethingPromise(5).then(result => console.log(result)); // 10
