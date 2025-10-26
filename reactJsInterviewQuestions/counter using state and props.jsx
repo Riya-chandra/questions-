@@ -14,4 +14,4 @@ function counter({intial=0}){
 
 export default function app(){
     return <Counter initial={5}></Counter>
-}
+}w
