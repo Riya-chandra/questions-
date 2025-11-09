@@ -24,7 +24,7 @@ doSomething(5,(result1)=>{
 
 
 
-// NOw due to the callback and promise
+// NOw due to the callback and promise chaining
 doSomethingPromise(5)
 .then(result1=>{
     console.log(result1); //10
@@ -42,11 +42,8 @@ doSomethingPromise(5)
 
 
 //Promise sirf sugar nahi hai, balki:
-
 // Yeh ek object hai jo future value represent karta hai. Matlab tum usko pass kar sakte ho, return kar sakte ho, reuse kar sakte ho.
-
 // Callback sirf ek function hota hai jo ek jagah call hoga.
-
 // Promises modern async tools (async/await) ka base hain.
 
 
