@@ -1,6 +1,6 @@
 //Question: Explain scope chain with nested function.
 
-let a=10 ///global
+let a=10 //global
 
 function outer(){
     let b=20;

@@ -10,7 +10,7 @@ parentElement.addEventListener('click',function(){
     console.log("this wont run when child is clicked")
 });
 
-
+ 
 // For an even stronger version that prevents any other listeners on the same element from 
 // firing, use stopImmediatePropagation(): 
 element.addEventListener('click', function(event) { 

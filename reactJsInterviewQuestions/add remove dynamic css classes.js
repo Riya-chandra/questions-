@@ -16,7 +16,7 @@ element.classList.remove('highlight','visible');
 // toggling classes means add if bsent and remove if present
 element.classList.toggle('active');
 element.classList.toggle('visible',isvisible);
-// .classList.toggle('classname', condition) yaha ek condition hai let isVisible =true then uske hisb se ye kaamkrega 
+//classList.toggle('classname', condition) yaha ek condition hai let isVisible =true then uske hisb se ye kaamkrega 
 
 const box = document.getElementById('box');
 let isVisible = true;

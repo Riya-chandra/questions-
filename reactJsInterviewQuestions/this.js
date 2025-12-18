@@ -20,7 +20,7 @@ function example(){
     console.log(this);
 }
 example(); //in browser:window , in strcut mode:undefined
-//Browser me (non-strict mode) → this window object hoga.
+// Browser me (non-strict mode) → this window object hoga.
 // Strict mode ("use strict") me → this undefined hoga.
 
 //n a method, this refers to the owner object 

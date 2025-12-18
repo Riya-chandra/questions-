@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-
 function Search(){
   const [query,setQuery]=useState("");
   const [result,setResult]=useState([]);
@@ -17,7 +16,7 @@ function Search(){
 // "orange".includes("a") 
 // Matlab jo bhi filtered result mile — setResults(["apple","orange","banana"].filter(item => item.includes(query)));
 // wo results state me store ho jata hai,
-// aur React UI me re-render ho kar list dikha deta hai. ✅
+// aur React UI me re-render ho kar list dikha deta hai. 
     },500);
     return ()=>clearTimeout(timer);
   },[query]);
